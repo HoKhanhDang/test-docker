@@ -17,7 +17,7 @@ COPY . .
 RUN npm run build
 
 # Expose port 5173 (Vite mặc định chạy trên cổng này)
-EXPOSE 3000
+EXPOSE 5173
 
 # Lệnh chạy ứng dụng Vite
 CMD ["npm", "run", "preview"]
